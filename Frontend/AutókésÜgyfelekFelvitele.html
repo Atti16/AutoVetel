@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autók és Ügyfelek Felvitele</title>
+</head>
+<body>
+    <h1>Autók Felvitele</h1>
+    <form action="process.php" method="post">
+        <h2>Autó Adatok</h2>
+        <label for="auto_id">ID:</label>
+        <input type="number" id="auto_id" name="auto_id" required>
+        <br>
+        <label for="marka">Márka:</label>
+        <input type="text" id="marka" name="marka" required>
+        <br>
+        <label for="modell">Modell:</label>
+        <input type="text" id="modell" name="modell" required>
+        <br>
+        <label for="ev">Év:</label>
+        <input type="number" id="ev" name="ev" required>
+        <br>
+        <label for="km">Kilométer:</label>
+        <input type="number" id="km" name="km" required>
+        <br>
+        <label for="ar">Ár:</label>
+        <input type="number" id="ar" name="ar" required>
+        <br>
+        <input type="submit" name="submit_auto" value="Autó Felvitele">
+    </form>
+
+    <h1>Ügyfelek Felvitele</h1>
+    <form action="process.php" method="post">
+        <h2>Ügyfél Adatok</h2>
+        <label for="ugyfel_id">ID:</label>
+        <input type="number" id="ugyfel_id" name="ugyfel_id" required>
+        <br>
+        <label for="nev">Név:</label>
+        <input type="text" id="nev" name="nev" required>
+        <br>
+        <label for="cim">Cím:</label>
+        <input type="text" id="cim" name="cim" required>
+        <br>
+        <label for="telefonszam">Telefonszám:</label>
+        <input type="text" id="telefonszam" name="telefonszam" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <input type="submit" name="submit_ugyfel" value="Ügyfél Felvitele">
+    </form>
+</body>
+</html>

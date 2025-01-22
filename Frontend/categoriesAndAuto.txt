@@ -1,0 +1,17 @@
+SUV:
+Ford F-150
+Mazda CX-5
+Hyundai Tucson
+
+Sedan:
+Toyota Corolla
+Honda Civic
+Tesla Model 3
+
+Hatchback:
+Volkswagen Golf
+
+Coupe:
+
+Elektromos:
+Tesla Model 3
